@@ -42,7 +42,7 @@ img {
 }
 .container {
   max-width: 1024px;
-  margin-inline: 1.5rem;
+  margin: 1.5rem;
 }
 
 .grid {
@@ -51,7 +51,7 @@ img {
 }
 
 .section {
-  padding-block: 5rem;
+  padding: 5rem;
 }
 
 .section-title {
@@ -455,10 +455,10 @@ img {
     display: flex;
   }
   .container{
-    margin-inline: 1rem;
+    margin: 1rem;
   }
   .section{
-    padding-block: 4rem;
+    padding: 4rem;
   }
   .home-title{
     font-size: 2rem;
@@ -474,12 +474,12 @@ img {
 }
 @media screen and (min-width:1024px) {
   .section{
-    padding-block: 6rem;
+    padding: 6rem;
   }
   .home-container{
     position: relative;
     grid-template-columns: 480px 500px;
-    padding-block: 7rem;
+    padding: 7rem;
   }
   .home-data{
     text-align: initial;
@@ -513,7 +513,7 @@ img {
   .menu-container{
     grid-template-columns: repeat(4, 222px);
     column-gap: 2rem;
-    padding-block: 6rem;
+    padding: 6rem;
   }
   .menu-card{
     padding: 7.5rem 2rem 2rem;
@@ -523,7 +523,7 @@ img {
     width: 230px;
   }
   .contact{
-    padding-block: 8rem;
+    padding: 8rem;
   }
   .contact-container{
     position: relative;
@@ -542,7 +542,7 @@ img {
 }
 @media screen and (min-width:1064px) {
   .container{
-    margin-inline: auto;
+    margin: auto;
   }
 }
 @media screen and (min-width: 1280px) {
