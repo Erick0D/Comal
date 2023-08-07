@@ -326,9 +326,6 @@ img {
   color: var(--accent);
   transform: translateY(-2px);
 }
-.contact-map{
-  padding-top: 1rem;
-}
 /*=============== FOOTER ===============*/
 .footer-info,
 .footer-card{
@@ -464,7 +461,7 @@ img {
     font-size: 2rem;
   }
   .contact-content{
-    gap: 1.5rem;
+    gap: 1.8rem;
   }
 }
 @media screen and (min-width:767px) {
