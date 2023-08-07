@@ -42,7 +42,9 @@ img {
 }
 .container {
   max-width: 1024px;
-  margin: 1.5rem;
+  margin-inline: 1.5rem;
+  margin-start: 1.5rem;
+  margin-end: 1.5rem;
 }
 
 .grid {
@@ -51,7 +53,9 @@ img {
 }
 
 .section {
-  padding: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-block: 5rem;
 }
 
 .section-title {
@@ -452,7 +456,9 @@ img {
     display: flex;
   }
   .container{
-    margin: 1rem;
+    margin-inline: 1rem;
+    margin-start: 1rem;
+    margin-end: 1rem;
   }
   .section{
     padding: 4rem;
@@ -471,12 +477,16 @@ img {
 }
 @media screen and (min-width:1024px) {
   .section{
-    padding: 6rem;
+    padding-block: 6rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
   }
   .home-container{
     position: relative;
     grid-template-columns: 480px 500px;
-    padding: 7rem;
+    padding-block: 7rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
   }
   .home-data{
     text-align: initial;
@@ -520,7 +530,9 @@ img {
     width: 230px;
   }
   .contact{
-    padding: 8rem;
+    padding-block: 8rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
   .contact-container{
     position: relative;
@@ -539,7 +551,9 @@ img {
 }
 @media screen and (min-width:1064px) {
   .container{
-    margin: auto;
+    margin-inline: auto;
+    margin-start: auto;
+    margin-end: auto;
   }
 }
 @media screen and (min-width: 1280px) {
